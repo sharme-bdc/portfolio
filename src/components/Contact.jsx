@@ -22,6 +22,11 @@ export default function Contact() {
         </div>
         <button type="submit" className="w-full py-3 bg-black text-white font-semibold rounded-md hover:opacity-90 transition-all">Send Message</button>
       </form>
+
+      <div className="flex w-full flex-col justify-center md:flex-row max-auto items-center">
+        <a href="https://github.com/sharme-bdc/portfolio"><i class="fa fa-github" aria-hidden="true"></i></i></a>
+        <a href="https://bd.linkedin.com/in/sharme-akter-b9413a213"><i class="fa fa-linkedin-square" aria-hidden="true"></i></i></a>
+      </div>
     </section>
   );
 }

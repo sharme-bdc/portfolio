@@ -3,7 +3,7 @@ export default function Contact() {
     <section id="contact" className="py-20 px-4 gap-20 md:px-16 bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-700">
       <div className="flex w-full flex-col justify-center md:flex-row max-auto items-center">
         <hr className="w-5/12"></hr>
-        <h2 className="w-2/12 text-3xl font-bold mb-6 text-center items-center">Contact</h2>
+        <h2 className="w-2/12 text-3xl font-bold mb-6 text-center ite">Contact</h2>
         <hr className="w-5/12"></hr>
       </div>
       

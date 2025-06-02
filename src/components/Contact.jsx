@@ -24,9 +24,10 @@ export default function Contact() {
       </form>
 
       <div className="flex w-full flex-col justify-center md:flex-row max-auto items-center">
-        <a href="https://github.com/sharme-bdc/portfolio"><i class="fa fa-github" aria-hidden="true"></i></i></a>
-        <a href="https://bd.linkedin.com/in/sharme-akter-b9413a213"><i class="fa fa-linkedin-square" aria-hidden="true"></i></i></a>
+        <a href="https://github.com/sharme-bdc/portfolio"><i className="fa fa-github p-4 text-[25px]" aria-hidden="true"></i></a>
+        <a href="https://bd.linkedin.com/in/sharme-akter-b9413a213"><i className="fa fa-linkedin-square p-4 text-[25px]" aria-hidden="true"></i></a>
       </div>
+      <div className="max-auto items-center justify-center text-center p-4"><p className="mt-2 text-gray-600 dark:text-gray-300">Sharme Akter - 2025</p></div>
     </section>
   );
 }
